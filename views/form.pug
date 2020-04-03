@@ -1,0 +1,11 @@
+
+h1 New Message Form
+<form method="POST" action="/new">
+  div.form-group
+    label(for='Authors Name') Name:
+    input#name.form-control(type='text', placeholder='first and last' name='AuthorsName')
+  div.form-group
+    label(for='message') Message:
+    input#Message.form-control(type='text', placeholder='Sample text' name='Message')
+  button.btn.btn-primary(type='submit') Post Message
+</form>
